@@ -1,0 +1,11 @@
+.vs/
+LeronTech.Common/bin/
+LeronTech.Common/obj/
+LeronTech.LanternComponents/bin/
+LeronTech.LanternComponents/obj/
+LeronTech.OrderCalculator/bin/
+LeronTech.OrderCalculator/obj/
+LeronTech.OrderCalculatorUI/bin/
+LeronTech.OrderCalculatorUI/obj/
+LeronTech.OrderFileOutput/bin/
+LeronTech.OrderFileOutput/obj/
