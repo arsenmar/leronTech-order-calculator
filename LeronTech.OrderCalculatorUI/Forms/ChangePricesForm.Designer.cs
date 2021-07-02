@@ -968,6 +968,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(1050, 624);
             this.Controls.Add(this.txbVentillationRemoteControlPrice);
             this.Controls.Add(this.lblVentilationRemoteControl);
@@ -1071,6 +1072,8 @@
             this.Controls.Add(this.lblRigel);
             this.Controls.Add(this.label1);
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(1066, 663);
+            this.MinimumSize = new System.Drawing.Size(700, 300);
             this.Name = "ChangePricesForm";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;

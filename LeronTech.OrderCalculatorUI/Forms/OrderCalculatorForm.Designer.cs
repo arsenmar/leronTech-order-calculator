@@ -30,25 +30,25 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(OrderCalculatorForm));
             this.tbpLanternType1 = new System.Windows.Forms.TabPage();
-            this.ctrlLanternType1 = new LeronTech.OrderCalculatorUI.Controls.LanternTypeControl();
             this.tbcLanternComponents = new System.Windows.Forms.TabControl();
             this.tbpLanternType2 = new System.Windows.Forms.TabPage();
-            this.ctrlLanternType2 = new LeronTech.OrderCalculatorUI.Controls.LanternTypeControl();
             this.tbpLanternType3 = new System.Windows.Forms.TabPage();
-            this.ctrlLanternType3 = new LeronTech.OrderCalculatorUI.Controls.LanternTypeControl();
             this.tbpLanternType4 = new System.Windows.Forms.TabPage();
-            this.ctrlLanternType4 = new LeronTech.OrderCalculatorUI.Controls.LanternTypeControl();
             this.tbpLanternType5 = new System.Windows.Forms.TabPage();
-            this.ctrlLanternType5 = new LeronTech.OrderCalculatorUI.Controls.LanternTypeControl();
             this.tbpAvtomation = new System.Windows.Forms.TabPage();
-            this.ctrlExternalAvtomation = new LeronTech.OrderCalculatorUI.Controls.ExternalAvtomationControl();
             this.tbpBuldokAvtomation = new System.Windows.Forms.TabPage();
-            this.ctrlBuldokAvtomation = new LeronTech.OrderCalculatorUI.Controls.BuldokAvtomationControl();
             this.btnCalculate = new System.Windows.Forms.Button();
             this.btnChangePrices = new System.Windows.Forms.Button();
             this.btnChangeLanternTypeAmount = new System.Windows.Forms.Button();
             this.btnReport = new System.Windows.Forms.Button();
             this.ctrlFullyResult = new LeronTech.OrderCalculatorUI.Controls.FullyResultControl();
+            this.ctrlLanternType1 = new LeronTech.OrderCalculatorUI.Controls.LanternTypeControl();
+            this.ctrlLanternType2 = new LeronTech.OrderCalculatorUI.Controls.LanternTypeControl();
+            this.ctrlLanternType3 = new LeronTech.OrderCalculatorUI.Controls.LanternTypeControl();
+            this.ctrlLanternType4 = new LeronTech.OrderCalculatorUI.Controls.LanternTypeControl();
+            this.ctrlLanternType5 = new LeronTech.OrderCalculatorUI.Controls.LanternTypeControl();
+            this.ctrlExternalAvtomation = new LeronTech.OrderCalculatorUI.Controls.ExternalAvtomationControl();
+            this.ctrlBuldokAvtomation = new LeronTech.OrderCalculatorUI.Controls.BuldokAvtomationControl();
             this.tbpLanternType1.SuspendLayout();
             this.tbcLanternComponents.SuspendLayout();
             this.tbpLanternType2.SuspendLayout();
@@ -69,16 +69,6 @@
             this.tbpLanternType1.Size = new System.Drawing.Size(970, 474);
             this.tbpLanternType1.TabIndex = 0;
             this.tbpLanternType1.Text = "Фонарь - Тип 1";
-            // 
-            // ctrlLanternType1
-            // 
-            this.ctrlLanternType1.BackColor = System.Drawing.SystemColors.Control;
-            this.ctrlLanternType1.Location = new System.Drawing.Point(1, 5);
-            this.ctrlLanternType1.MaximumSize = new System.Drawing.Size(976, 469);
-            this.ctrlLanternType1.MinimumSize = new System.Drawing.Size(976, 469);
-            this.ctrlLanternType1.Name = "ctrlLanternType1";
-            this.ctrlLanternType1.Size = new System.Drawing.Size(976, 469);
-            this.ctrlLanternType1.TabIndex = 0;
             // 
             // tbcLanternComponents
             // 
@@ -106,14 +96,6 @@
             this.tbpLanternType2.TabIndex = 1;
             this.tbpLanternType2.Text = "Фонарь - Тип 2";
             // 
-            // ctrlLanternType2
-            // 
-            this.ctrlLanternType2.BackColor = System.Drawing.SystemColors.Control;
-            this.ctrlLanternType2.Location = new System.Drawing.Point(1, 5);
-            this.ctrlLanternType2.Name = "ctrlLanternType2";
-            this.ctrlLanternType2.Size = new System.Drawing.Size(976, 473);
-            this.ctrlLanternType2.TabIndex = 1;
-            // 
             // tbpLanternType3
             // 
             this.tbpLanternType3.BackColor = System.Drawing.SystemColors.Control;
@@ -124,14 +106,6 @@
             this.tbpLanternType3.Size = new System.Drawing.Size(970, 474);
             this.tbpLanternType3.TabIndex = 2;
             this.tbpLanternType3.Text = "Фонарь - Тип 3";
-            // 
-            // ctrlLanternType3
-            // 
-            this.ctrlLanternType3.BackColor = System.Drawing.SystemColors.Control;
-            this.ctrlLanternType3.Location = new System.Drawing.Point(1, 5);
-            this.ctrlLanternType3.Name = "ctrlLanternType3";
-            this.ctrlLanternType3.Size = new System.Drawing.Size(976, 483);
-            this.ctrlLanternType3.TabIndex = 1;
             // 
             // tbpLanternType4
             // 
@@ -144,14 +118,6 @@
             this.tbpLanternType4.TabIndex = 3;
             this.tbpLanternType4.Text = "Фонарь - Тип 4";
             // 
-            // ctrlLanternType4
-            // 
-            this.ctrlLanternType4.BackColor = System.Drawing.SystemColors.Control;
-            this.ctrlLanternType4.Location = new System.Drawing.Point(1, 5);
-            this.ctrlLanternType4.Name = "ctrlLanternType4";
-            this.ctrlLanternType4.Size = new System.Drawing.Size(976, 483);
-            this.ctrlLanternType4.TabIndex = 1;
-            // 
             // tbpLanternType5
             // 
             this.tbpLanternType5.BackColor = System.Drawing.SystemColors.Control;
@@ -162,14 +128,6 @@
             this.tbpLanternType5.Size = new System.Drawing.Size(970, 474);
             this.tbpLanternType5.TabIndex = 4;
             this.tbpLanternType5.Text = "Фонарь - Тип 5";
-            // 
-            // ctrlLanternType5
-            // 
-            this.ctrlLanternType5.BackColor = System.Drawing.SystemColors.Control;
-            this.ctrlLanternType5.Location = new System.Drawing.Point(1, 5);
-            this.ctrlLanternType5.Name = "ctrlLanternType5";
-            this.ctrlLanternType5.Size = new System.Drawing.Size(976, 483);
-            this.ctrlLanternType5.TabIndex = 1;
             // 
             // tbpAvtomation
             // 
@@ -182,13 +140,6 @@
             this.tbpAvtomation.TabIndex = 5;
             this.tbpAvtomation.Text = "Aprimatic";
             // 
-            // ctrlExternalAvtomation
-            // 
-            this.ctrlExternalAvtomation.Location = new System.Drawing.Point(7, 7);
-            this.ctrlExternalAvtomation.Name = "ctrlExternalAvtomation";
-            this.ctrlExternalAvtomation.Size = new System.Drawing.Size(861, 402);
-            this.ctrlExternalAvtomation.TabIndex = 0;
-            // 
             // tbpBuldokAvtomation
             // 
             this.tbpBuldokAvtomation.BackColor = System.Drawing.SystemColors.Control;
@@ -198,13 +149,6 @@
             this.tbpBuldokAvtomation.Size = new System.Drawing.Size(970, 474);
             this.tbpBuldokAvtomation.TabIndex = 6;
             this.tbpBuldokAvtomation.Text = "Buldok";
-            // 
-            // ctrlBuldokAvtomation
-            // 
-            this.ctrlBuldokAvtomation.Location = new System.Drawing.Point(3, 4);
-            this.ctrlBuldokAvtomation.Name = "ctrlBuldokAvtomation";
-            this.ctrlBuldokAvtomation.Size = new System.Drawing.Size(933, 398);
-            this.ctrlBuldokAvtomation.TabIndex = 0;
             // 
             // btnCalculate
             // 
@@ -253,12 +197,69 @@
             this.ctrlFullyResult.Size = new System.Drawing.Size(983, 109);
             this.ctrlFullyResult.TabIndex = 75;
             // 
+            // ctrlLanternType1
+            // 
+            this.ctrlLanternType1.BackColor = System.Drawing.SystemColors.Control;
+            this.ctrlLanternType1.Location = new System.Drawing.Point(1, 5);
+            this.ctrlLanternType1.MaximumSize = new System.Drawing.Size(976, 469);
+            this.ctrlLanternType1.MinimumSize = new System.Drawing.Size(976, 469);
+            this.ctrlLanternType1.Name = "ctrlLanternType1";
+            this.ctrlLanternType1.Size = new System.Drawing.Size(976, 469);
+            this.ctrlLanternType1.TabIndex = 0;
+            // 
+            // ctrlLanternType2
+            // 
+            this.ctrlLanternType2.BackColor = System.Drawing.SystemColors.Control;
+            this.ctrlLanternType2.Location = new System.Drawing.Point(1, 5);
+            this.ctrlLanternType2.Name = "ctrlLanternType2";
+            this.ctrlLanternType2.Size = new System.Drawing.Size(976, 473);
+            this.ctrlLanternType2.TabIndex = 1;
+            // 
+            // ctrlLanternType3
+            // 
+            this.ctrlLanternType3.BackColor = System.Drawing.SystemColors.Control;
+            this.ctrlLanternType3.Location = new System.Drawing.Point(1, 5);
+            this.ctrlLanternType3.Name = "ctrlLanternType3";
+            this.ctrlLanternType3.Size = new System.Drawing.Size(976, 483);
+            this.ctrlLanternType3.TabIndex = 1;
+            // 
+            // ctrlLanternType4
+            // 
+            this.ctrlLanternType4.BackColor = System.Drawing.SystemColors.Control;
+            this.ctrlLanternType4.Location = new System.Drawing.Point(1, 5);
+            this.ctrlLanternType4.Name = "ctrlLanternType4";
+            this.ctrlLanternType4.Size = new System.Drawing.Size(976, 483);
+            this.ctrlLanternType4.TabIndex = 1;
+            // 
+            // ctrlLanternType5
+            // 
+            this.ctrlLanternType5.BackColor = System.Drawing.SystemColors.Control;
+            this.ctrlLanternType5.Location = new System.Drawing.Point(1, 5);
+            this.ctrlLanternType5.Name = "ctrlLanternType5";
+            this.ctrlLanternType5.Size = new System.Drawing.Size(976, 483);
+            this.ctrlLanternType5.TabIndex = 1;
+            // 
+            // ctrlExternalAvtomation
+            // 
+            this.ctrlExternalAvtomation.Location = new System.Drawing.Point(7, 7);
+            this.ctrlExternalAvtomation.Name = "ctrlExternalAvtomation";
+            this.ctrlExternalAvtomation.Size = new System.Drawing.Size(861, 402);
+            this.ctrlExternalAvtomation.TabIndex = 0;
+            // 
+            // ctrlBuldokAvtomation
+            // 
+            this.ctrlBuldokAvtomation.Location = new System.Drawing.Point(3, 4);
+            this.ctrlBuldokAvtomation.Name = "ctrlBuldokAvtomation";
+            this.ctrlBuldokAvtomation.Size = new System.Drawing.Size(933, 398);
+            this.ctrlBuldokAvtomation.TabIndex = 0;
+            // 
             // OrderCalculatorForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(990, 655);
+            this.ClientSize = new System.Drawing.Size(1014, 655);
             this.Controls.Add(this.ctrlFullyResult);
             this.Controls.Add(this.btnReport);
             this.Controls.Add(this.btnChangePrices);
@@ -267,8 +268,8 @@
             this.Controls.Add(this.tbcLanternComponents);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(1006, 694);
-            this.MinimumSize = new System.Drawing.Size(1006, 694);
+            this.MaximumSize = new System.Drawing.Size(1030, 694);
+            this.MinimumSize = new System.Drawing.Size(700, 200);
             this.Name = "OrderCalculatorForm";
             this.Text = "Расчет заказов Leron Tech.";
             this.Load += new System.EventHandler(this.OrderCalculatorForm_Load);
